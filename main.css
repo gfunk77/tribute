@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+  color: #fffffe;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#main {
+  min-height: 100vh;
+  background: black;
+}
+#title {
+  margin-bottom: 1.5rem;
+}
+.title-div {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5rem 0;
+  letter-spacing: 5px;
+}
+#img-caption h1 {
+  margin-bottom: 1rem;
+}
+.section-center {
+  width: 95vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#img-div {
+  margin-bottom: 3rem;
+  max-width: 95vw;
+  margin: 0 auto;
+}
+#image {
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#img-div p {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  margin-top: 1rem;
+}
+#tribute-info {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  margin: 2rem auto;
+}
+.planet {
+  margin: 2rem 0;
+  padding: 1.5rem;
+}
+.planet p {
+  max-width: 45rem;
+}
+.planet-img {
+  border-radius: 4px;
+}
+.planet-info {
+  margin-top: 1.5rem;
+}
+
+.planet-info h4 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dotted #fffffe;
+  text-transform: uppercase;
+}
+#link {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  padding-bottom: 2rem;
+}
+#tribute-link {
+  /* color: #fffffe; */
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .planet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+  }
+  .planet-img {
+    height: 200px;
+    width: 200px;
+  }
+  .planet-info {
+    margin: auto;
+  }
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2rem;
+  }
+}
